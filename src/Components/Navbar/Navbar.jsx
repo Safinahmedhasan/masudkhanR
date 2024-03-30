@@ -71,6 +71,11 @@ const Navbar = () => {
                 <a>Post</a>
               </li>
             </Link>
+            <Link to="/card">
+              <li>
+                <a>Card</a>
+              </li>
+            </Link>
             <li>
               <details>
                 <summary>Parent</summary>
