@@ -3,16 +3,18 @@ import CardBox from "./CardBox";
 
 const Card = () => {
   const [cardData, setCardData] = useState([]);
+
   useEffect(() => {
-    fetch("https://restcountries.com/v3.1/all")
+    fetch("data.json")
       .then((res) => res.json())
-      .then((card) => setCardData(card));
-    const data = cardData.slice(0, 10);
-    setCardData(data);
-  });
+      .then((card) => {
+        const data = card.slice(0, 5);
+        setCardData(data);
+      });
+  }, []);
   return (
-    <div>
-      <div>
+    <div className="container mx-auto my-5">
+      <div className="grid grid-cols-3 gap-5">
         {cardData.map((card) => (
           <CardBox cards={card} />
         ))}

@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Jane Smith",
+    "address": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "country": "USA",
+      "zip": "90001"
+    },
+    "image_url": "https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80",
+    "gender": "female",
+    "job": "Data Scientist",
+    "description": "Data scientist with expertise in machine learning, statistical analysis, and data visualization. Skilled in Python, R, and SQL."
+  },
+  {
+    "name": "Michael Johnson",
+    "address": {
+      "city": "Chicago",
+      "state": "IL",
+      "country": "USA",
+      "zip": "60601"
+    },
+    "image_url": "https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg",
+    "gender": "male",
+    "job": "Marketing Manager",
+    "description": "Results-driven marketing manager with a proven track record of developing and implementing successful marketing campaigns. Strong analytical and creative skills."
+  },
+  {
+    "name": "Emily Brown",
+    "address": {
+      "city": "Houston",
+      "state": "TX",
+      "country": "USA",
+      "zip": "77001"
+    },
+    "image_url": "https://t4.ftcdn.net/jpg/05/47/97/81/360_F_547978128_vqEEUYBr1vcAwfRAqReZXTYtyawpgLcC.jpg",
+    "gender": "female",
+    "job": "Teacher",
+    "description": "Passionate and dedicated teacher committed to creating a positive and engaging learning environment. Experienced in curriculum development and student assessment."
+  },
+  {
+    "name": "David Lee",
+    "address": {
+      "city": "Miami",
+      "state": "FL",
+      "country": "USA",
+      "zip": "33101"
+    },
+    "image_url": "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_640.jpg",
+    "gender": "male",
+    "job": "Graphic Designer",
+    "description": "Creative and detail-oriented graphic designer with expertise in Adobe Creative Suite. Experienced in developing visually appealing designs for print and digital media."
+  },
+  {
+    "name": "Sarah Martinez",
+    "address": {
+      "city": "Dallas",
+      "state": "TX",
+      "country": "USA",
+      "zip": "75201"
+    },
+    "image_url": "https://wallpapers.com/images/featured/nature-2ygv7ssy2k0lxlzu.jpg",
+    "gender": "female",
+    "job": "Nurse",
+    "description": "Compassionate and skilled nurse with extensive experience in providing patient care in hospital settings. Proficient in medical procedures and patient assessment."
+  },
+  {
+    "name": "Robert Wilson",
+    "address": {
+      "city": "Philadelphia",
+      "state": "PA",
+      "country": "USA",
+      "zip": "19101"
+    },
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhchYGk48PwffFzWNf4rxP2AiCMdiqiz40RJl0D1gMvQ&s",
+    "gender": "male",
+    "job": "Accountant",
+    "description": "Detail-oriented accountant with a strong understanding of financial principles and regulations. Experienced in financial analysis, budgeting, and reporting."
+  },
+  {
+    "name": "Jessica Taylor",
+    "address": {
+      "city": "Phoenix",
+      "state": "AZ",
+      "country": "USA",
+      "zip": "85001"
+    },
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/1200px-Altja_j%C3%B5gi_Lahemaal.jpg",
+    "gender": "female",
+    "job": "Software Developer",
+    "description": "Innovative software developer with expertise in full-stack web development. Proficient in JavaScript, HTML, CSS, and various frameworks."
+  },
+  {
+    "name": "William Garcia",
+    "address": {
+      "city": "San Antonio",
+      "state": "TX",
+      "country": "USA",
+      "zip": "78201"
+    },
+    "image_url": "https://c4.wallpaperflare.com/wallpaper/431/451/684/the-most-beautiful-picture-of-nature-wallpaper-preview.jpg",
+    "gender": "male",
+    "job": "Doctor",
+    "description": "Dedicated doctor with a focus on patient-centered care. Skilled in diagnosing and treating a wide range of medical conditions."
+  },
+  {
+    "name": "Amanda Rodriguez",
+    "address": {
+      "city": "San Diego",
+      "state": "CA",
+      "country": "USA",
+      "zip": "92101"
+    },
+    "image_url": "https://i.pinimg.com/originals/37/a9/06/37a906be8bd465bb52f092f3f89f9def.jpg",
+    "gender": "female",
+    "job": "Lawyer",
+    "description": "Experienced lawyer with expertise in contract law. Skilled in legal research, negotiation, and drafting legal documents."
+  }
+]

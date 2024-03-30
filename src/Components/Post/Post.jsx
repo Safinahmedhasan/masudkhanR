@@ -6,7 +6,11 @@ const Post = () => {
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/posts")
       .then((res) => res.json())
-      .then((post) => setPostData(post));
+      .then((post) => {
+        const data = post.slice(0, 10);
+        setPostData(data);
+      });
+    
   });
 
   return (
