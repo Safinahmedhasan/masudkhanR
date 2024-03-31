@@ -83,6 +83,11 @@ const Navbar = () => {
                 <a>Card</a>
               </li>
             </Link>
+            <Link to="/blog">
+              <li>
+                <a>Blog</a>
+              </li>
+            </Link>
             <li>
               <details>
                 <summary>Parent</summary>

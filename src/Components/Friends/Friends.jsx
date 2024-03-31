@@ -4,7 +4,6 @@ import FriendBox from "./FriendBox";
 
 const Friends = () => {
   const friendData = useLoaderData();
-  console.log(friendData);
 
   return (
     <div>
