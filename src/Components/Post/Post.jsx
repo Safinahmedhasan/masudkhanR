@@ -14,7 +14,7 @@ const Post = () => {
   });
 
   return (
-    <div>
+    <div className="container mx-auto">
       <div className="grid grid-cols-3 gap-5">
         {postData.map((post) => (
           <PostBox posts={post} />

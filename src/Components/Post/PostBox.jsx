@@ -7,7 +7,7 @@ const PostBox = (props) => {
     };
     return (
       <div>
-        <div className="container mx-auto">
+        <div className="">
           <div className="card w-96 bg-base-100 shadow-xl">
             <div className="card-body">
               <h2 className="card-title">{title}</h2>

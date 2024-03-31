@@ -1,5 +1,5 @@
 import Swal from "sweetalert2";
-import { Navigate } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 
 const Login = () => {
   const handleLogin = () => {
@@ -58,6 +58,11 @@ const Login = () => {
                 <button onClick={handleLogin} className="btn btn-primary">
                   Login
                 </button>
+                <Link to="/">
+                  <button className="w-full my-3 text-white btn btn-success">
+                    Home
+                  </button>
+                </Link>
               </div>
             </form>
           </div>
