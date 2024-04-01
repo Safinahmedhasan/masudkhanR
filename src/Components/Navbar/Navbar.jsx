@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ActiveNavlink from "../ActiveNavlink/ActiveNavlink";
+import ActiveNavLink from "../ActiveNavLink/ActiveNavLink";
 
 const Navbar = () => {
   return (
@@ -64,16 +64,16 @@ const Navbar = () => {
                 <a>Home</a>
               </li>
             </Link>
-            <ActiveNavlink to="/about">
+            <Link to="/about">
               <li>
                 <a>About</a>
               </li>
-            </ActiveNavlink>
-            <Link to="/friends">
+            </Link>
+            <ActiveNavLink to="/friends">
               <li>
                 <a>Friends</a>
               </li>
-            </Link>
+            </ActiveNavLink>
             <Link to="/post">
               <li>
                 <a>Post</a>

@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./ActiveNavlink.css";
+import "./ActiveNavLInk.css";
 
-const ActiveNavlink = ({ to, children }) => {
+const ActiveNavLink = ({ to, children }) => {
   return (
     <div>
       <NavLink to={to} className={({ isActive }) => (isActive ? "active" : "")}>
@@ -12,4 +12,4 @@ const ActiveNavlink = ({ to, children }) => {
   );
 };
 
-export default ActiveNavlink;
+export default ActiveNavLink;
