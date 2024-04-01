@@ -9,6 +9,9 @@ import Friends from "../Components/Friends/Friends";
 import FriendDetails from "../Components/Friends/FriendDetails";
 import Blog from "../Components/Blog/Blog";
 import SingleBlog from "../Components/Blog/SingleBlog";
+import Dairy from "../Components/Dairy/Dairy";
+import SingleDairy from "../Components/Dairy/SingleDairy";
+import NotFound from "../Components/NotFound/NotFound";
 
 export const router = createBrowserRouter([
   {
@@ -57,10 +60,25 @@ export const router = createBrowserRouter([
             `https://jsonplaceholder.typicode.com/posts/${params.singleBlogId}`
           ),
       },
+      {
+        path: "/dairy",
+        element: <Dairy />,
+        loader: () => fetch("https://jsonplaceholder.typicode.com/posts"),
+      },
+      {
+        path: "/singleDairy/:id",
+        element: <SingleDairy />,
+        loader: ({ params }) =>
+          fetch(`https://jsonplaceholder.typicode.com/posts/${params.id}`),
+      },
     ],
   },
   {
     path: "/login",
     element: <Login />,
+  },
+  {
+    path: "*",
+    element: <NotFound />,
   },
 ]);

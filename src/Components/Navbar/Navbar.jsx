@@ -88,6 +88,11 @@ const Navbar = () => {
                 <a>Blog</a>
               </li>
             </Link>
+            <Link to="/dairy">
+              <li>
+                <a>Dairy</a>
+              </li>
+            </Link>
             <li>
               <details>
                 <summary>Parent</summary>
