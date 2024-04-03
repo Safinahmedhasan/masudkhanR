@@ -1,18 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import DairyBox from "./DairyBox";
 
 const Dairy = () => {
   const dairyData = useLoaderData();
-  const sliceDairyData = dairyData.slice(0, 7);
+  const [showMore, setShowMore] = useState(false);
+
+  const handleShowMore = () => {
+    setShowMore(true);
+  };
 
   return (
-    <div className="container mx-auto">
+    <div>
       <div className="grid grid-cols-3 gap-5">
-        {sliceDairyData.map((dairies) => (
-          <DairyBox key={dairies.id} dairy={dairies} />
-        ))}
+        {showMore
+          ? dairyData.map((dairy) => <DairyBox key={dairy.id} dairy={dairy} />)
+          : dairyData
+              .slice(0, 7)
+              .map((dairy) => <DairyBox key={dairy.id} dairy={dairy} />)}
       </div>
+      {!showMore && (
+        <button onClick={handleShowMore} className="btn btn-primary">
+          Show More
+        </button>
+      )}
     </div>
   );
 };
