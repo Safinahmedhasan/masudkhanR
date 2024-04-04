@@ -1,11 +1,14 @@
 import React from "react";
-import { addToCart } from "../Utilis/FakeDb";
+import { addToCart, removeFromCart } from "../Utilis/FakeDb";
 
 const CardBox = (props) => {
   const { id, image_url, name, description } = props.cards;
 
-  const handleAddToCart = (id) => {
+  const handleAddCart = () => {
     addToCart(id);
+  };
+  const handleRemoveCart = () => {
+    removeFromCart(id);
   };
 
   return (
@@ -15,10 +18,16 @@ const CardBox = (props) => {
       <p className="py-2 text-base">{description}</p>
       <p>{id}</p>
       <button
-        onClick={() => handleAddToCart(id)}
+        onClick={() => handleAddCart(id)}
         className="w-full btn btn-success text-white text-xl"
       >
         AddCart
+      </button>
+      <button
+        onClick={() => handleRemoveCart(id)}
+        className="w-full btn btn-success text-white text-xl"
+      >
+        remove
       </button>
     </div>
   );
